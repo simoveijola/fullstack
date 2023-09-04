@@ -63,10 +63,10 @@ const App = () => {
 
   return (
     <div>
-    < Header courseName={course.name} />
-    < Content parts = {course.parts} />
-    < Total parts = {course.parts} />
-  </div>
+      < Header courseName={course.name} />
+      < Content parts = {course.parts} />
+      < Total parts = {course.parts} />
+    </div>
   )
 }
 
